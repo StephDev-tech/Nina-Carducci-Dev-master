@@ -193,6 +193,11 @@ body {
 	z-index: 1;
 }
 
+.price{
+	font-size: 24px;
+	font-weight: 500;
+}
+
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
