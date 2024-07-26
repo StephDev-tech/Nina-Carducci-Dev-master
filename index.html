@@ -13,7 +13,7 @@
 	<meta  name = "twitter:title"  content = "Nina CARDUCCI, photographe professsionnelle à Bordeaux" > 
  	<meta  name = "twitter:description"  content = "Immortalisez vos plus beaux instants à Bordeaux avec un photographe professionnel. Capturez l'essence de chaque moment avec des clichés uniques et authentiques à Bordeaux. Concert,clichés d'entreprises, Mariages, Portrait" > 
 	<meta  name = "twitter:image"  content = "https://raw.githubusercontent.com/StephDev-tech/Nina-Carducci-Dev-master/main/assets/images/nina.jpg">
-	<!-- META WHATSAPP CARD -->
+	<!-- META Facebook CARD -->
 	<meta property="og:title" content="Nina CARDUCCI, photographe professsionnelle à Bordeau">
 	<meta property="og:description" content="Immortalisez vos plus beaux instants à Bordeaux avec un photographe professionnel. Capturez l'essence de chaque moment avec des clichés uniques et authentiques à Bordeaux. Concert,clichés d'entreprises, Mariages, Portrait">
 	<meta property="og:url" content="https://stephdev-tech.github.io/Nina-Carducci-Dev-master/">
@@ -21,9 +21,9 @@
 	<!-- Schema.org meta for Google+ -->
 	<meta itemprop="name" content="Nina CARDUCCI, photographe professsionnelle à Bordeau">
 	<meta itemprop="description" content="Immortalisez vos plus beaux instants à Bordeaux avec un photographe professionnel. Capturez l'essence de chaque moment avec des clichés uniques et authentiques à Bordeaux. Concert,clichés d'entreprises, Mariages, Portrait">
-	<meta itemprop="image" content="https://stephdev-tech.github.io/Nina-Carducci-Dev-master/" />
-	<meta name="google-site-verification" content="TAuIWvPrOxkuNMOSs3hSgkE6Hm9EPFbsPOcowp3oFjM" />
-	<!-- Stylesheets & Fonts -->
+	<meta itemprop="image" content="https://stephdev-tech.github.io/Nina-Carducci-Dev-master/">
+	<meta name="google-site-verification" content="TAuIWvPrOxkuNMOSs3hSgkE6Hm9EPFbsPOcowp3oFjM">
+	<!-- Stylesheets & Scripts -->
  	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,10 +33,41 @@
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="./assets/scripts.min.js" defer></script>
 	<script src="./assets/maugallery.min.js" defer></script>
+	<script type="application/ld+json">
+		{
+			"@context" : "https://schema.org",
+			"type" : "LocalBusiness",
+			"image" : [],
+			"name" : "Nina Carducci,photographe",
+			"address" : {
+				"@type" : "PostalAddress"
+				"streetAddress" : "68 avenue Alsace-Lorraine"
+				"addressLoacality" : "Bordeaux"
+				"addressRegion" : "Nouvelle-Aquitaine"
+				"postalCode" : "33200"
+				"addressCountry" : "France"
+			},
+			"telephone" : "+330556677889",
+			"openingHoursSpecification": [
+				{
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday",
+				],
+				"opens": "10:00",
+				"closes": "19:00"
+				}
+			]
+		}
+	</script>
 </head>
 <body>
-	<header class="top-header">
-		<h1 class="name">Nina Carducci</h1>
+	<header itemscope itemtype="http://schema.org/LocalBusiness" class="top-header">
+		<h1 itemprop="name" class="name">Nina Carducci</h1>
 		<nav class="nav">   
 			<ul>
 				<li><a href="#about">À propos</a></li>
@@ -120,7 +151,7 @@
 						<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 					</div>
 					<div class="service__price">
-						<p class="price">350€/demi journée</p>
+						<h4>350€/demi journée</h4>
 						<p>Matériel, déplacement inclus</p>
 					</div>
 
@@ -131,7 +162,7 @@
 						<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 					</div>
 					<div class="service__price">
-						<p class="price">50€/photo</p>
+						<h4>50€/photo</h4>
 						<p>2 AR par photo</p>
 					</div>
 				</div>
@@ -141,7 +172,7 @@
 						<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 					</div>
 					<div class="service__price">
-						<p class="price">400€ album A4</p>
+						<h4>400€ album A4</h4>
 						<p>30 pages recto/verso</p>
 					</div>
 				</div>
