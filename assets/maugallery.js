@@ -150,7 +150,7 @@
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          i--
+          i--//bug carousel
           index = i ;
         }
       });
@@ -190,7 +190,7 @@
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          i++
+          i++//bug carousel
           index = i;
         }
       });
@@ -242,7 +242,7 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag");
-      $(this).addClass("active active-tag");
+      $(this).addClass("active active-tag");// bug filtre
 
       var tag = $(this).data("images-toggle");
 
